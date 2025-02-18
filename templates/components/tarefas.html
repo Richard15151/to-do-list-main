@@ -1,0 +1,11 @@
+<div class="tarefas d-flex flex-column justify-content-center align-items-center w-100"  >
+{% if tarefas %}
+    <h1 class="display-5 text-center mb-3 fs-1" style="font-family: 'Poppins';">Lista de tarefas:</h1>
+    {% for tarefa in tarefas %}
+        {% include 'components/tarefa.html'%}
+    {% endfor %}
+{% else %}
+    <img src="../../static/img/notask.jpg" alt="Figura de duas pessoas tranquilas sentadas em puffs" class="img-fluid" style="height: 200px;">
+    <p class="display-5 text-center"style="font-family: 'Indie Flower';">Não há tarefas cadastradas!</p>
+{% endif %}
+</div>

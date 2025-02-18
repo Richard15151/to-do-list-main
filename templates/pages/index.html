@@ -1,0 +1,14 @@
+{% extends 'pages/base.html' %} 
+{% block conteudo %}
+
+<div class="container d-flex flex-column justify-content-center my-2 py-2 align-items-center border border-dark rounded" style="background-color: #f3f4e5;">
+  {% if editar %}
+    {% include 'components/editartarefa.html'%}
+  {% else %}
+    {% include 'components/novatarefa.html'%}
+  {% endif %}
+  <br>
+  {% include 'components/tarefas.html'%}
+</div>
+
+{% endblock %}
