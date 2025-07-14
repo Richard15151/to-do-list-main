@@ -52,14 +52,14 @@ Para configurar e rodar o projeto em sua máquina local, siga estes passos:
 1. Clone o repositório:
 
 ```Bash
-  git clone https://github.com/seu-usuario/nome-do-repositorio.git
+  git clone https://github.com/Richard15151/to-do-list-main.git
 ````
 
 2. Navegue até a pasta do projeto:
 
 ```Bash
 
-cd nome-do-repositorio
+cd to-do-list-main
 ````
 
 3. Crie e ative um ambiente virtual (recomendado):
